@@ -2,9 +2,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #1d1f21; /* Dark background */
-  color: #f0f0f0; /* Light text */
-  margin: 0;
+  background-color: #1d1f21; 
+  color: #f0f0f0; 
   padding: 0;
   display: flex;
   justify-content: center;
@@ -14,7 +13,7 @@ body {
   position: relative;
 }
 
-/* Animated Background Effect */
+
 body::before {
   content: '';
   position: absolute;
@@ -28,7 +27,7 @@ body::before {
   z-index: -1;
 }
 
-/* Background Animation */
+
 @keyframes animatedBackground {
   0% {
     background-position: 0% 50%;
@@ -44,14 +43,13 @@ body::before {
 .container {
   width: 90%;
   max-width: 800px;
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  background: rgba(0, 0, 0, 0.8); 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   animation: fadeInContainer 1.5s ease;
 }
 
-/* Font Styling for Headers */
 h1 {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
@@ -68,7 +66,6 @@ h2, h3 {
   margin: 15px 0;
 }
 
-/* Input and Button Styling */
 input, textarea, button {
   width: 95%;
   margin: 10px 0;
@@ -102,7 +99,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Resume Animation */
 .resume {
   animation: slideInUp 1s ease forwards;
   transition: opacity 0.7s ease;
@@ -110,16 +106,15 @@ button:hover {
 }
 
 .show {
-  opacity: 1; /* Visible when data is ready */
+  opacity: 1; 
 }
 
-/* Form and Resume Section Transitions */
+
 .hidden {
   opacity: 0;
   display: none;
 }
 
-/* Container Fade-in Animation */
 @keyframes fadeInContainer {
   from {
     opacity: 0;
@@ -131,7 +126,7 @@ button:hover {
   }
 }
 
-/* Slide-in Animation for Resume */
+
 @keyframes slideInUp {
   from {
     transform: translateY(30px);
@@ -143,7 +138,7 @@ button:hover {
   }
 }
 
-/* Button Glow Effect */
+
 button {
   position: relative;
   overflow: hidden;
