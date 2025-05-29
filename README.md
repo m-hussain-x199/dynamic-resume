@@ -1,13 +1,11 @@
-🌐 Dynamic Resume Builder
-
+# 🌐 Dynamic Resume Builder
 
 🔗 (https://venerable-tiramisu-a4362f.netlify.app/)
-
 
 This is the Dynamic Resume Builder which helps you to create your resume in very easy way.
 
 
-🛠️ Built With
+# 🛠️ Built With
 - HTML5
 
 - CSS3
@@ -16,12 +14,12 @@ This is the Dynamic Resume Builder which helps you to create your resume in very
 
 - Responsive Design
 
-🚀 Deployment
+# 🚀 Deployment
 This project is hosted on Netlify
+
 Netlify handles continuous deployment, HTTPS, and CDN optimization.
 
-
-📌 Features
+# 📌 Features
 - Fully responsive design for mobile, tablet, and desktop
 
 - Clean and minimal UI
@@ -32,7 +30,7 @@ Netlify handles continuous deployment, HTTPS, and CDN optimization.
 
 - Smooth navigation and animations
 
-🧑‍💻 Author
+# 🧑‍💻 Author
 Muhammad Hussain
 www.linkedin.com/in/where-is-hussain
 
